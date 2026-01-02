@@ -119,14 +119,14 @@ wheels = [
 
 [[package]]
 name = "fastcore"
-version = "1.8.17"
+version = "1.10.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "packaging" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/0c/05/71dd2c5461d5d74243df1cbbf8888564d2679bf26d17a844b90bf6ccd0ef/fastcore-1.8.17.tar.gz", hash = "sha256:d12e1caa405630eafde16b322b31be7dc265ea1e220a11bbd4d9ce597fa3c922", size = 84526, upload-time = "2025-12-07T23:47:45.679Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/bb/71/74dfc43c5508e47eab350491091296c3cda780f39dc0527af8f89611a7fc/fastcore-1.10.3.tar.gz", hash = "sha256:71302bdd32ad98bc98660b8d5f7d97ad0126bf5717840f21e537e15deb30b7ac", size = 85593, upload-time = "2026-01-02T21:58:52.701Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/60/75/8bd7cdf84177f11a32e4a0cb2af64b0b0d65eeaa7c41919a04a703b98604/fastcore-1.8.17-py3-none-any.whl", hash = "sha256:f5c1a2bd884cac61ebea39c70efcd95a6f20311e8d68c74259249ca1ff526c73", size = 87640, upload-time = "2025-12-07T23:47:44.191Z" },
+    { url = "https://files.pythonhosted.org/packages/a6/89/82c301709b44b0a198015554a5ae5c49551884df012dc12a0ff622b017cf/fastcore-1.10.3-py3-none-any.whl", hash = "sha256:df4740d2555478ccd475499a7937f7397400fe96e892117d05064d8cd177db63", size = 88166, upload-time = "2026-01-02T21:58:51.256Z" },
 ]
 
 [[package]]
@@ -140,8 +140,8 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "faststrap", specifier = ">=0.3.0" },
-    { name = "python-fasthtml", specifier = ">=0.12.36" },
+    { name = "faststrap", specifier = ">=0.4.5" },
+    { name = "python-fasthtml", specifier = ">=0.12.37" },
 ]
 
 [[package]]
@@ -159,14 +159,14 @@ wheels = [
 
 [[package]]
 name = "faststrap"
-version = "0.3.0"
+version = "0.4.5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "python-fasthtml" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/5b/03/03dbef37b0e95a1c7760cf21c74a00afbb58000dc303481fac2c4136bfd4/faststrap-0.3.0.tar.gz", hash = "sha256:594374649c0d417a9ebef36e5a230312d91de107db4ac905daee3af21849f2a9", size = 462877, upload-time = "2025-12-12T06:50:07.09Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/16/58/d3cbc75b4abac6a34e8e114adb2895c22324dbab9ad520fd75164d17ffbd/faststrap-0.4.5.tar.gz", hash = "sha256:a7cc69794659dc666daba40e1215938fddbdc0eb443c4fb3d8334235d9d4700e", size = 495723, upload-time = "2025-12-31T14:33:05.83Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ce/91/f1ae66571756cd7b2547942fa44fb527d1868b9f39863fec70c991cdbd61/faststrap-0.3.0-py3-none-any.whl", hash = "sha256:e7210e489c2ed5c4f7f1e8872f5b12f1cc3614b66279f0c106d7367846098514", size = 426504, upload-time = "2025-12-12T06:50:04.996Z" },
+    { url = "https://files.pythonhosted.org/packages/f5/68/35a1a5fc981b85d5282614cc2eaf098cd25bea21679efff817f30eda28ee/faststrap-0.4.5-py3-none-any.whl", hash = "sha256:702db9ebfe3528e91a280d4fb1436cc070d8dc1b86984fb1b06e3bac3cf23bb8", size = 451988, upload-time = "2025-12-31T14:33:04.074Z" },
 ]
 
 [[package]]
@@ -287,7 +287,7 @@ wheels = [
 
 [[package]]
 name = "python-fasthtml"
-version = "0.12.36"
+version = "0.12.37"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beautifulsoup4" },
@@ -301,9 +301,9 @@ dependencies = [
     { name = "starlette" },
     { name = "uvicorn", extra = ["standard"] },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a6/91/27209a6ede97d86b3a0bcd8afbe340c2e4f0087e3d0cd8eae43c6deb6ee8/python_fasthtml-0.12.36.tar.gz", hash = "sha256:f00d4755357b388643bcdfc2315b70e95f1e043515000d7bacc88e4d17bdc31d", size = 70309, upload-time = "2025-12-08T01:35:35.009Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/0e/37/f5306c77b50d41f2a376b945d60c3585638b6fddaba628607fc5a27cb25e/python_fasthtml-0.12.37.tar.gz", hash = "sha256:6e69449f68581c8f2f018f8041b5bcc1ce7c231fc5aecb027dda7cb1e2c8ee84", size = 70833, upload-time = "2025-12-30T22:57:07.332Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f3/f4/fd4f51a08764bdea8c3cdd696cdd59d73587d1660cd75357ebf61c1684c2/python_fasthtml-0.12.36-py3-none-any.whl", hash = "sha256:3358151f856fec44ca58105c53a4e7470206d932ed7233b706396eee4847a823", size = 72706, upload-time = "2025-12-08T01:35:33.348Z" },
+    { url = "https://files.pythonhosted.org/packages/38/a0/5ff83d9e48cedab2111e74ebf1afe2906b63db5ba8cf45d3ccf95c753c65/python_fasthtml-0.12.37-py3-none-any.whl", hash = "sha256:d074e48b930b60c4166694b54137b009b513eef5fbb1d2a2faf73da4d835950d", size = 73135, upload-time = "2025-12-30T22:57:05.474Z" },
 ]
 
 [[package]]
